@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quotes list</title>
+    <link th:href="@{/styles/quotes.css}" rel="stylesheet" />
+</head>
+<body>
+<div class="quotes_wrapper">
+    <h1>Quotes list</h1>
+    <table class="quotes__table">
+        <tr>
+            <th class="quotes_head">Author</th>
+            <th class="quotes_head">Quote</th>
+            <th class="quotes_head">Character count</th>
+            <th class="quotes_head">Quote html</th>
+        </tr>
+        <tr class="quotes__row" th:each="quote: ${quotes}">
+            <td class="quotes__data" th:text="${quote.getAuthor()}"></td>
+            <td class="quotes__data" th:text="${quote.getQuote()}"></td>
+            <td class="quotes__data" th:text="${quote.getCharacterCount()}"></td>
+            <td class="quotes__data" th:text="${quote.getHtml()}"></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
