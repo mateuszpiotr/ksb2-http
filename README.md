@@ -4,7 +4,7 @@ https://github.com/public-apis/public-apis
 Następnie skomunikuj się z usługą poprzez wykorzystanie klasy RestTemplate.
 Z wykorzystaniem swojego ulubionego narzędzia do tworzenia GUI wyświetl wszystkie dane we formie tabelarycznej.
 
-[Quotes](http://localhost:8080/quotes)
+**Check**: src/main/java/pl/piotrowski/ksb2http/quotes/QuoteController.java
 
 ### Zadanie 2 - pogodynka
 Połącz się z serwisem pogodowym i stwórz widok, który umożliwia na wprowadzanie miasta do pola tekstowego. Po zatwierdzeniu przyciskiem wyświetli się aktualna pogoda dla danej miejscowości wraz z odzwierciedlającą pogodę grafiką.

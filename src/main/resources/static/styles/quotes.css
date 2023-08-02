@@ -1,21 +1,21 @@
-.quotes_wrapper {
-  font-family: arial, sans-serif;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 960px;
+.quotes__wrapper {
+    font-family: arial, sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
 }
 
 .quotes__table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 .quotes_head, .quotes__data {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
 
 .quotes__row:nth-child(even) {
-  background-color: #dddddd;
+    background-color: #dddddd;
 }

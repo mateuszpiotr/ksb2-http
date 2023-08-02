@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get city for forecast</title>
+    <link th:href="@{/styles/forecast.css}" rel="stylesheet" />
+</head>
+<body>
+<div class="forecast__wrapper">
+    <h1>Weather girl</h1>
+    <form action="#" th:action="@{/forecast/result}" th:object="${forecast}" method="post">
+        <div>
+            <label for="city">Provide city name</label>
+            <input type="text" id="city" th:field="*{city}" />
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </div>
+    </form>
+</div>
+</body>
+</html>

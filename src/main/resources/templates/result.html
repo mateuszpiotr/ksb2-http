@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Get city for forecast</title>
+    <link th:href="@{/styles/forecast.css}" rel="stylesheet" />
+</head>
+<body>
+<div class="forecast__wrapper">
+    <h1 th:text="'Forecast for: ' + ${forecast.getCity()}"></h1>
+    <p th:text="'Summary: ' + ${forecast.getDescription()}"></p>
+    <p th:text="'Temperature: ' + ${forecast.getTemperature()}"></p>
+    <p th:text="'Wind: ' + ${forecast.getWind()}"></p>
+</div>
+</body>
+</html>
