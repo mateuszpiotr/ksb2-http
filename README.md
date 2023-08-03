@@ -23,4 +23,4 @@ Użytkownik: 3,93
 Aplikacja: Gratki! Udało się za 3 razem!
 Może być to aplikacja konsolowa lub okienkowa
 
-**Check** src/main/java/Ksb2CurrencyExchangeGame/CurrencyExchangeGame.java
+**Check** src/main/java/pl/piotrowski/ksb2CurrencyExchangeGame

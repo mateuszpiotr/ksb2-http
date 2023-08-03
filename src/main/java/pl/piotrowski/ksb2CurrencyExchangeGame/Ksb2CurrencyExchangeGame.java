@@ -1,4 +1,4 @@
-package Ksb2CurrencyExchangeGame;
+package pl.piotrowski.ksb2CurrencyExchangeGame;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

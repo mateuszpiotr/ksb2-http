@@ -1,4 +1,4 @@
-package Ksb2CurrencyExchangeGame;
+package pl.piotrowski.ksb2CurrencyExchangeGame;
 
 import org.springframework.web.client.RestTemplate;
 
@@ -40,7 +40,7 @@ public class CurrencyExchangeGame {
 
             if (currencyRate == userRate) {
                 wasRateGuessed = true;
-                System.out.println("OK within " + numberOfTries + " tries");
+                System.out.println("Correct, you guessed it after " + numberOfTries + " tries");
                 return;
             } else if (currencyRate > userRate) {
                 System.out.println("Too small, try again");
