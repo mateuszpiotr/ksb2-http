@@ -9,6 +9,8 @@ Z wykorzystaniem swojego ulubionego narzędzia do tworzenia GUI wyświetl wszyst
 ### Zadanie 2 - pogodynka
 Połącz się z serwisem pogodowym i stwórz widok, który umożliwia na wprowadzanie miasta do pola tekstowego. Po zatwierdzeniu przyciskiem wyświetli się aktualna pogoda dla danej miejscowości wraz z odzwierciedlającą pogodę grafiką.
 
+**Check**: src/main/java/pl/piotrowski/ksb2http/forecast/ForecastController.java
+
 ### Zadanie 3 – gra walutowa
 Pobierz aktualny kursy walut. W momencie, kiedy gracz wejdzie do gry wyświetla mu się losowo wybrana waluta, której kurs względem złotówki musi odgadnąć.
 Np.
@@ -20,3 +22,5 @@ Aplikacja: Za mało
 Użytkownik: 3,93
 Aplikacja: Gratki! Udało się za 3 razem!
 Może być to aplikacja konsolowa lub okienkowa
+
+**Check** src/main/java/Ksb2CurrencyExchangeGame/CurrencyExchangeGame.java
